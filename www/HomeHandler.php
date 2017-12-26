@@ -1,4 +1,5 @@
 <?php
+
 class HomeHandler {
     function get() {
         $twigLoader = new TwigLoader();

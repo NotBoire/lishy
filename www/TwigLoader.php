@@ -1,4 +1,5 @@
 <?php
+
 class TwigLoader {
     public function load($path, $template, $params) {
         \Twig_Autoloader::register();
