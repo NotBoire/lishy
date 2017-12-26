@@ -1,9 +1,9 @@
 <?php
 
-class HomeHandler {
+class ContactHandler {
     function get() {
         $twigLoader = new TwigLoader();
-        $template = 'home.html.twig';
+        $template = 'contact.html.twig';
         $params = array();
         $twigLoader->load(dirname(__FILE__) . '/views', $template, $params);
     }

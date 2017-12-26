@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'head.html.twig' %}
+        <title>
+            {% block title %}
+                Sophie Hariri - Projet {{ project }}
+            {% endblock %}
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>{{ project }}</h1>
+        </header>
+
+        <main>
+            <div id="project">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit urna, consequat nec orci non, laoreet
+                sodales erat. Integer viverra orci purus, dictum dictum nibh accumsan non. Donec tincidunt sodales magna vel
+                consequat. Ut gravida lectus turpis, et auctor nunc ullamcorper nec. Nunc a nulla nec ligula semper porta.
+                Vestibulum ullamcorper, augue ac elementum tincidunt, turpis sapien ultricies tortor, a pretium elit urna et
+                nunc. Sed et nisl non sem posuere mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas. Aliquam a accumsan diam. Donec placerat mi eu augue tristique, sed pulvinar erat cursus.
+                Suspendisse potenti. Cras sem lectus, bibendum et laoreet id, dapibus bibendum sapien.
+            </div>
+        </main>
+
+        {% include 'scripts.html.twig' %}
+    </body>
+</html>

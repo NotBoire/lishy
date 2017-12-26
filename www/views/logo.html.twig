@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'head.html.twig' %}
+        <title>
+            {% block title %}
+                Sophie Hariri - Logos
+            {% endblock %}
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Page de liste des logos</h1>
+        </header>
+
+        <main>
+            <ul>
+                <li>
+                    Logo 1
+                </li>
+                <li>
+                    Logo 2
+                </li>
+            </ul>
+        </main>
+
+        {% include 'scripts.html.twig' %}
+    </body>
+</html>

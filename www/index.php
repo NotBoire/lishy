@@ -6,4 +6,7 @@ ToroHook::add("404",  function() {
 });
 Toro::serve(array(
     "/" => "HomeHandler",
+    "/logo" => "LogoHandler",
+    "/projet/:string" => "ContentHandler",
+    "/contact" => "ContactHandler",
 ));
