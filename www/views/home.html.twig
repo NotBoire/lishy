@@ -10,12 +10,84 @@
     </head>
 
     <body>
-        <header>
-            <h1>Hello world</h1>
-        </header>
+        <div id="tile-blurb">
+            {% include 'header.html.twig' %}
+            <div id="top-header">
+                <h1>Bonjour, je suis Sophie Hariri, UI/UX Designer</h1>
+                <div id="introduction">
+                    Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+                    in advertising, my strength lies in website and app design.
+                </div>
+            </div>
+        </div>
 
         <main>
-        Page content
+            {% include 'tile.html.twig' with {
+                'title': 'France Bleu',
+                'slug': 'francebleu',
+                'description': 'Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+                in advertising, my strength lies in website and app design.',
+                'role': 'UI design',
+                'agency': 'Radio France',
+                'year': '2017'
+
+            } %}
+
+            {% include 'tile.html.twig' with {
+                'title': 'France Info',
+                'slug': 'franceinfo',
+                'description': 'Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+                in advertising, my strength lies in website and app design.',
+                'role': 'UI design',
+                'agency': 'Radio France',
+                'year': '2017'
+
+            } %}
+
+            {% include 'tile.html.twig' with {
+            'title': 'France Info',
+            'slug': 'franceinfo',
+            'description': 'Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+            in advertising, my strength lies in website and app design.',
+            'role': 'UI design',
+            'agency': 'Radio France',
+            'year': '2017'
+
+            } %}
+
+            {% include 'tile.html.twig' with {
+            'title': 'France Info',
+            'slug': 'franceinfo',
+            'description': 'Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+            in advertising, my strength lies in website and app design.',
+            'role': 'UI design',
+            'agency': 'Radio France',
+            'year': '2017'
+
+            } %}
+
+            {% include 'tile.html.twig' with {
+            'title': 'France Info',
+            'slug': 'franceinfo',
+            'description': 'Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+            in advertising, my strength lies in website and app design.',
+            'role': 'UI design',
+            'agency': 'Radio France',
+            'year': '2017'
+
+            } %}
+
+            {% include 'tile.html.twig' with {
+            'title': 'France Info',
+            'slug': 'franceinfo',
+            'description': 'Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+            in advertising, my strength lies in website and app design.',
+            'role': 'UI design',
+            'agency': 'Radio France',
+            'year': '2017'
+
+            } %}
+
         </main>
 
         {% include 'scripts.html.twig' %}

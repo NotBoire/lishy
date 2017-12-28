@@ -1,0 +1,27 @@
+<div id="francebleu" class="tile-project">
+    <img src="http://fakeimg.pl/375x220/">
+    <h2>{{ title }}</h2>
+    <div class="separator"></div>
+    <div class="text-project">
+        {{ description }}
+    </div>
+    <div class="row data">
+        <div class="column role">
+            <p class="column-title">Role</p>
+            <p class="variable-data">{{ role }}</p>
+        </div>
+        <div class="column agency">
+            <p class="column-title">Agence</p>
+            <p class="variable-data">{{ agency }}</p>
+        </div>
+        <div class="column year">
+            <p class="column-title">Année</p>
+            <p class="variable-data">{{ year }}</p>
+        </div>
+    </div>
+
+    <a href="/projet/{{ slug }}" class="project-link">
+        Voir le projet
+    </a>
+    <div class="empty"></div>
+</div>

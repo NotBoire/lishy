@@ -1,6 +1,6 @@
 <?php
 
-class ContactHandler {
+class AboutHandler {
     function get() {
         $twigLoader = new TwigLoader();
         $template = 'contact.html.twig';
