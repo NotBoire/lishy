@@ -10,17 +10,24 @@
     </head>
 
     <body>
-        {% include 'header.html.twig' %}
-
+        <div id="tile-logofolio">
+            {% include 'header.html.twig' %}
+            <div id="top-header">
+                <h1>Logofolio</h1>
+                <div class="separator-white"></div>
+                <div id="introduction">
+                    Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+                    in advertising, my strength lies in website and app design.
+                </div>
+            </div>
+        </div>
         <main>
-            <ul>
-                <li>
-                    Logo 1
-                </li>
-                <li>
-                    Logo 2
-                </li>
-            </ul>
+            <img class="img-logo" src="http://fakeimg.pl/425x319/">
+            <img class="img-logo" src="http://fakeimg.pl/425x319/4d4343">
+            <img class="img-logo" src="http://fakeimg.pl/425x319/">
+            <img class="img-logo" src="http://fakeimg.pl/425x319/4d4343">
+            <img class="img-logo" src="http://fakeimg.pl/425x319/">
+            <img class="img-logo" src="http://fakeimg.pl/425x319/4d4343">
         </main>
 
         {% include 'scripts.html.twig' %}
