@@ -49,29 +49,35 @@ there.
     }
     .navLink {
         z-index: 10;
-        position: relative;
         display: block;
+        position: relative;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
-        padding-bottom: 5px;
         font-family: Orkney-medium;
+        /*
+        height: calc(33% - 30px);
+        */
         font-size: 30px;
+        padding-bottom: 80px;
+        padding-top: 80px;
         font-weight: 500;
-        line-height: 1.3;
-        text-align: left;
+        line-height: 180px;
+        text-align: center;
         text-decoration: none;
+        background: #1b232c;
         color: #fff;
+        border-bottom: solid 1px #9fa1a2;
     }
     .container {
         max-width: 1250px;
+        height: 100%;
         margin: 0 auto;
         position: relative;
         padding: 0;
-        margin-left: 6.25%;
-        margin-right: 6.25%;
     }
     .burger {
         position: absolute;
+        z-index: 800;
         right: 25px;
         margin-top: 20px;
         width: 19px;
@@ -109,6 +115,7 @@ there.
         width: 42px;
         position: absolute;
         top: 14px;
+        z-index: 800;
         right: 13px;
         /* float: left; */
         border: 1px solid #fff;
@@ -172,6 +179,9 @@ there.
         position: fixed;
         z-index: 700;
         overflow: hidden;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
         transition: 0.3s;
     }
     .headerPin {
@@ -181,12 +191,38 @@ there.
         padding-bottom: 60px;
     }
     .openmenu {
+        position: fixed;
         overflow: visible;
         opacity: 1;
+        margin: 0;
+        /*
         height: 100%;
-        background: #1b232c;
+        */
     }
-
+    .first, .second, .third {
+        left: -100%;
+    }
+    .first {
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        transition: 0.4s;
+    }
+    .second {
+        -webkit-transition: 0.8s ease-in-out;
+        -moz-transition: 0.8s ease-in-out;
+        -o-transition: 0.8s ease-in-out;
+        transition: 0.8s;
+    }
+    .third {
+        -webkit-transition: 1.2s ease-in-out;
+        -moz-transition: 1.2s ease-in-out;
+        -o-transition: 1.2s ease-in-out;
+        transition: 1.2s;
+    }
+    .slide {
+        left: 0;
+    }
     /* TOP */
     #tile-blurb {
         background-image:  linear-gradient(191deg, #23435F, rgba(18, 21, 28, 0.84), rgba(18, 19, 24, 0.83));
@@ -233,15 +269,19 @@ there.
     }
     img.img-project {
         margin: auto;
-        max-width: 100%;
+        margin-right: 0;
         height: auto;
+        width: 100%;
         margin-bottom: 25px;
         display: block;
     }
-    img.img-franceinfo {
+    div.img-block {
+        margin: 0
+    }
+    div.img-franceinfo {
         background-color: #FFC52B;
     }
-    img.img-francebleu {
+    div.img-francebleu {
         background-color: #0075D5;
     }
     a.link-project {
@@ -339,7 +379,7 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 770px) {
-    .burger {
+/*    .burger {
         display: none;
     }
     .header {
@@ -363,7 +403,7 @@ there.
         bottom: 0;
         line-height: 70px;
         opacity: 1 !important;
-    }
+    }*/
 }
 
 /* Larger than desktop */
