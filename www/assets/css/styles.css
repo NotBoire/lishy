@@ -53,7 +53,7 @@ there.
         position: relative;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
-        font-family: Orkney-medium;
+        font-family: Orkney-medium, sans-serif;
         /*
         height: calc(33% - 30px);
         */
@@ -76,7 +76,7 @@ there.
         padding: 0;
     }
     .burger {
-        position: absolute;
+        position: fixed;
         z-index: 800;
         right: 25px;
         margin-top: 20px;
@@ -85,10 +85,10 @@ there.
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
-        -webkit-transition: .5s ease-in-out;
-        -moz-transition: .5s ease-in-out;
-        -o-transition: .5s ease-in-out;
-        transition: .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
         cursor: pointer;
     }
     .burger span {
@@ -104,16 +104,16 @@ there.
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
-        -webkit-transition: .25s ease-in-out;
-        -moz-transition: .25s ease-in-out;
-        -o-transition: .25s ease-in-out;
-        transition: .25s ease-in-out;
+        -webkit-transition: all .25s ease-in-out;
+        -moz-transition: all .25s ease-in-out;
+        -o-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
     }
 
     .circle {
         height: 42px;
         width: 42px;
-        position: absolute;
+        position: fixed;
         top: 14px;
         z-index: 800;
         right: 13px;
@@ -121,9 +121,6 @@ there.
         border: 1px solid #fff;
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 50%;
-    }
-    .burger {
-
     }
 
     .burger span:nth-child(1) {
@@ -173,16 +170,13 @@ there.
         left: 2px;
     }
     .header {
-        height: 60px;
+        height: 100%;
         width: 100%;
         background-size: cover;
         position: fixed;
         z-index: 700;
+        left: -100%;
         overflow: hidden;
-        -webkit-transition: 0.3s ease-in-out;
-        -moz-transition: 0.3s ease-in-out;
-        -o-transition: 0.3s ease-in-out;
-        transition: 0.3s;
     }
     .headerPin {
         height: 0;
@@ -195,30 +189,22 @@ there.
         overflow: visible;
         opacity: 1;
         margin: 0;
-        /*
         height: 100%;
-        */
     }
-    .first, .second, .third {
+    .first, .second, .third, .openmenu {
         left: -100%;
     }
     .first {
-        -webkit-transition: 0.4s ease-in-out;
-        -moz-transition: 0.4s ease-in-out;
-        -o-transition: 0.4s ease-in-out;
-        transition: 0.4s;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s;
     }
     .second {
-        -webkit-transition: 0.8s ease-in-out;
-        -moz-transition: 0.8s ease-in-out;
-        -o-transition: 0.8s ease-in-out;
-        transition: 0.8s;
-    }
-    .third {
-        -webkit-transition: 1.2s ease-in-out;
-        -moz-transition: 1.2s ease-in-out;
-        -o-transition: 1.2s ease-in-out;
-        transition: 1.2s;
+        -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        transition: all 0.8s;
     }
     .slide {
         left: 0;
@@ -230,7 +216,7 @@ there.
         height: 439px;
     }
     h1 {
-        font-family: Butler-bold;
+        font-family: Butler-bold, sans-serif;
         font-size: 30px;
         font-weight: bold;
         font-style: normal;
