@@ -61,6 +61,9 @@
     div.img-francebleu {
         background-color: #0075D5;
     }
+    div.img-emotion {
+        background-color: #262626;
+    }
     a.link-project {
         display:block;
         margin: 24px auto 0;

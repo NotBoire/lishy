@@ -64,8 +64,8 @@ html {
         background: #fff;
     }
     .tile-project > *:not(img) {
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 6%;
+        margin-left: 6%;
         color: #1163a4;
     }
     img.img-project {
