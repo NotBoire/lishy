@@ -1,0 +1,26 @@
+/* Larger than mobile */
+@media (min-width: 320px) {
+    /* LOGOFOLIO */
+    #tile-logofolio {
+        height: 299px;
+        background-color: #1d3042;
+    }
+    img.img-logo {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 770px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
