@@ -32,11 +32,15 @@
     }
     .black-element {
         margin: 0!important;
-        padding-left: 6%;
-        padding-right: 6%;
     }
     .black-element h2 {
         padding-top: 40px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .black-element div {
+        padding-left: 6%;
+        padding-right: 6%;
     }
     div#emotion-div1 {
         height: 290px;
