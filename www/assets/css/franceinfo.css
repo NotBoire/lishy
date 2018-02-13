@@ -27,7 +27,7 @@
         margin-bottom: 32px;
     }
     .black-element, .black-element h2, .black-element div {
-        background: #262626;
+        background: #323232;
         color: #e9eef1;
     }
     .black-element {
@@ -42,21 +42,38 @@
         padding-left: 6%;
         padding-right: 6%;
     }
-    div#emotion-div1 {
+
+    .blue-element, .blue-element h2, .blue-element div {
+        background: #f2f2f2;
+    }
+    .blue-element {
+        margin: 0!important;
+    }
+    .blue-element h2 {
+        padding-top: 40px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .blue-element div {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    div#franceinfo-div1 {
         height: 290px;
         margin: 0!important;
-        background-color: #262626;
+        background-color: #ffc300;
     }
-    img#emotion-img1 {
-        background: #262626;
+    img#franceinfo-img1 {
+        background: #ffc300;
         position: absolute;
         margin: 10px 0 0 0;
         left: -130px;
     }
-    img#emotion-img8 {
-        margin-top: 32px;
+    img#franceinfo-img4 {
+        padding-bottom: 18px;
     }
-    img#emotion-img9, img#emotion-img10 {
+    img#franceinfo-img7, img#franceinfo-img8 {
         margin-bottom: 0;
     }
 }
