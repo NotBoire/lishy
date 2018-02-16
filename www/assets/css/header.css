@@ -181,7 +181,10 @@
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 770px) {
+@media (min-width: 770px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
     .burger, .circle {
         display: none;
     }
@@ -208,9 +211,6 @@
         opacity: 1 !important;
     }
 }
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
