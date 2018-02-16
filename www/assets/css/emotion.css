@@ -43,21 +43,25 @@
         padding-right: 6%;
     }
     div#emotion-div1 {
-        height: 290px;
         margin: 0!important;
         background-color: #262626;
     }
     img#emotion-img1 {
         background: #262626;
-        position: absolute;
-        margin: 10px 0 0 0;
-        left: -130px;
     }
     img#emotion-img8 {
         margin-top: 32px;
-    }
-    img#emotion-img9, img#emotion-img10 {
         margin-bottom: 0;
+    }
+    img#emotion-img4, img#emotion-img5, img#emotion-img9, img#emotion-img10 {
+        margin-bottom: 0;
+    }
+    .white-element, .first-element {
+        margin: 0 !important;
+    }
+    .left-column, .right-column {
+        margin-left: 6%;
+        margin-right: 6%;
     }
 }
 
@@ -68,7 +72,59 @@
 @media (min-width: 770px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    .black-element {
+        float: left;
+    }
+    .white-element {
+        float: left;
+        margin-right: 0 !important;
+    }
+    .black-element .left-column, .left-column {
+        float: left;
+        width: 23%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .right-column {
+        float: right;
+        width: 23%;
+    }
+    .left-column div.p-project {
+        padding-left: 0;
+        margin-top: 24px;
+    }
+    .right-column h1 {
+        padding-top: 30%;
+    }
+    .left-column h2 {
+        padding-top: 80px;
+        padding-left: 0;
+    }
+    div.p-project {
+        margin-bottom: 0;
+    }
+    img#emotion-img7, img#emotion-img8, img#emotion-img4, img#emotion-img3, img#emotion-img2 {
+        float: right;
+        margin: 0;
+        width: 65%;
+    }
+    img#emotion-img1 {
+        float: left;
+        margin: 0;
+        width: 65%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    img#emotion-img9, img#emotion-img5 {
+        float: left;
+        width: 50%;
+    }
+    img#emotion-img10, img#emotion-img6 {
+        float: right;
+        width: 50%;
+    }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}

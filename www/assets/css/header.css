@@ -182,7 +182,7 @@
 
 /* Larger than tablet */
 @media (min-width: 770px) {
-    .burger {
+    .burger, .circle {
         display: none;
     }
     .header {
