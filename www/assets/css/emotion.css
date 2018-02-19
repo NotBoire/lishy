@@ -56,6 +56,9 @@
     img#emotion-img4, img#emotion-img5, img#emotion-img9, img#emotion-img10 {
         margin-bottom: 0;
     }
+    img#emotion-img-full {
+        display: none;
+    }
     .white-element, .first-element {
         margin: 0 !important;
     }
@@ -144,6 +147,9 @@
     img#emotion-img10, img#emotion-img6 {
         float: right;
         width: 50%;
+    }
+    img#emotion-img-full {
+        display: block;
     }
 }
 

@@ -15,7 +15,9 @@
 <main id="tile-project">
     <div class="first-element">
         <div id="{{ project }}-div1">
-            <img id="{{ project }}-img1" class="img-project" src="/assets/img/emotion/emotion.png">
+            <img id="{{ project }}-img1" class="img-project"
+                 src="/assets/img/emotion/emotion.png"
+                 srcset="/assets/img/emotion/emotion.png">
         </div>
         <div class="right-column">
             <h1>{{ project }}</h1>
@@ -36,8 +38,11 @@
         </div>
         <img id="{{ project }}-img2" class="img-project"
              src="/assets/img/emotion/emotion_img_logo_1x.png"
-             srcset="/assets/img/emotion/emotion_img_logo_2x.png">
+             srcset="/assets/img/emotion/emotion_img_logo_2x.png 1024w">
     </div>
+    <img id="{{ project }}-img-full" class="img-project"
+         src="/assets/img/emotion/emotion_img_typographie_1x.jpg"
+         srcset="/assets/img/emotion/emotion_img_typographie_2x.jpg 1024w">
     <div class="white-element">
         <div class="left-column">
             <h2>Couleurs</h2>
@@ -47,8 +52,8 @@
             </div>
         </div>
         <img id="{{ project }}-img3" class="img-project couleurs"
-             src="/assets/img/emotion/emotion_img_couleurs_2x.png"
-             srcset="/assets/img/emotion/emotion_img_couleurs_2x.png">
+             src="/assets/img/emotion/emotion_img_couleurs_1x.png"
+             srcset="/assets/img/emotion/emotion_img_couleurs_2x.png 1024w">
     </div>
     <div id="black-element-column-ux" class="black-element">
         <div class="left-column">
@@ -60,14 +65,14 @@
         </div>
         <img id="{{ project }}-img4" class="img-project"
              src="/assets/img/emotion/emotion_img_uxdesign_cibles_1x.png"
-             srcset="/assets/img/emotion/emotion_img_uxdesign_cibles_2x.png">
+             srcset="/assets/img/emotion/emotion_img_uxdesign_cibles_2x.png 1024w">
     </div>
     <img id="{{ project }}-img5" class="img-project"
          src="/assets/img/emotion/emotion_img_uxdesign_avis-utilisateurs_1x.png"
-         srcset="/assets/img/emotion/emotion_img_uxdesign_avis-utilisateurs_2x.png">
+         srcset="/assets/img/emotion/emotion_img_uxdesign_avis-utilisateurs_2x.png 1024w">
     <img id="{{ project }}-img6" class="img-project"
          src="/assets/img/emotion/emotion_img_uxdesign_persona_1x.jpg"
-         srcset="/assets/img/emotion/emotion_img_uxdesign_persona_2x.jpg">
+         srcset="/assets/img/emotion/emotion_img_uxdesign_persona_2x.jpg 1024w">
     <div class="white-element">
         <div class="left-column">
             <h2>Conclusion/Wireframe</h2>
@@ -90,14 +95,14 @@
         </div>
         <img id="{{ project }}-img8" class="img-project"
              src="/assets/img/emotion/emotion_img_site-web_mockup-mobile_1x.jpg"
-             srcset="/assets/img/emotion/emotion_img_site-web_mockup-mobile_2x.jpg">
+             srcset="/assets/img/emotion/emotion_img_site-web_mockup-mobile_2x.jpg 1024w">
     </div>
     <img id="{{ project }}-img9" class="img-project"
          src="/assets/img/emotion/emotion_img_site-web_screen_desk_1x.jpg"
-         srcset="/assets/img/emotion/emotion_img_site-web_screen_desk_2x.jpg">
+         srcset="/assets/img/emotion/emotion_img_site-web_screen_desk_2x.jpg 1024w">
     <img id="{{ project }}-img10" class="img-project"
          src="/assets/img/emotion/emotion_img_site-web_screen2_desk_1x.jpg"
-         srcset="/assets/img/emotion/emotion_img_site-web_screen2_desk_2x.jpg">
+         srcset="/assets/img/emotion/emotion_img_site-web_screen2_desk_2x.jpg 1024w">
 </main>
 
 {% include 'scripts.html.twig' %}

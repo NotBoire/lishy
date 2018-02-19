@@ -38,7 +38,7 @@
         padding-left: 6%;
         padding-right: 6%;
     }
-    .black-element div {
+    .black-element .p-project {
         padding-left: 6%;
         padding-right: 6%;
     }
@@ -60,21 +60,29 @@
     }
 
     div#franceinfo-div1 {
-        height: 290px;
         margin: 0!important;
         background-color: #ffc300;
     }
     img#franceinfo-img1 {
         background: #ffc300;
-        position: absolute;
-        margin: 10px 0 0 0;
-        left: -130px;
     }
     img#franceinfo-img4 {
         padding-bottom: 18px;
     }
     img#franceinfo-img7, img#franceinfo-img8 {
         margin-bottom: 0;
+    }
+    img#franceinfo-img-full {
+        display: none;
+    }
+    .white-element, .first-element {
+        margin: 0 !important;
+    }
+    .first-element .right-column,
+    .white-element .left-column,
+    .white-element .right-column {
+        margin-left: 6%;
+        margin-right: 6%;
     }
 }
 
@@ -85,7 +93,81 @@
 @media (min-width: 770px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    .black-element, .blue-element {
+        float: left;
+    }
+    .white-element {
+        float: left;
+        margin-right: 0 !important;
+    }
+    .left-column {
+        float: left;
+        width: 23%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .black-element div {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .right-column {
+        float: right;
+        width: 23%;
+    }
+    .left-column div.p-project {
+        padding-left: 0;
+        margin-top: 24px;
+    }
+    #tile-project .right-column h1 {
+        padding-top: 30%;
+        padding-bottom: 60px;
+        font-size: 70px;
+        line-height: 0.56;
+    }
+    .first-element .p-project {
+        margin-top: 50px;
+        font-size: 16px;
+        line-height: 1.56;
+    }
+    .white-element .p-project, .black-element .p-project {
+        margin-top: 50px;
+        font-size: 16px;
+        line-height: 1.38;
+    }
+    #tile-project .left-column h2 {
+        padding-top: 80px;
+        padding-left: 0;
+        font-size: 22px;
+        line-height: 1.77;
+    }
+    div.p-project {
+        margin-bottom: 0;
+    }
+    img#franceinfo-img2, img#franceinfo-img3, img#franceinfo-img4, img#franceinfo-img5, img#franceinfo-img6 {
+        float: right;
+        margin: 0;
+        width: 65%;
+    }
+    img#franceinfo-img1 {
+        float: left;
+        margin: 0;
+        width: 65%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    img#franceinfo-img7 {
+        float: left;
+        width: 50%;
+    }
+    img#franceinfo-img8 {
+        float: right;
+        width: 50%;
+    }
+    img#franceinfo-img-full {
+        display: block;
+    }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
