@@ -120,15 +120,19 @@
         margin-top: 24px;
     }
     #tile-project .right-column h1 {
-        padding-top: 30%;
-        padding-bottom: 60px;
+        padding-top: 15%;
+        padding-bottom: 50px;
         font-size: 70px;
         line-height: 0.56;
     }
     .first-element .p-project {
-        margin-top: 50px;
+        margin-top: 56px;
         font-size: 16px;
         line-height: 1.56;
+    }
+    .first-element .right-column {
+        float: right;
+        width: 38%;
     }
     .white-element .p-project, .black-element .p-project {
         margin-top: 50px;
@@ -136,7 +140,7 @@
         line-height: 1.38;
     }
     #tile-project .left-column h2 {
-        padding-top: 80px;
+        padding-top: 88px;
         padding-left: 0;
         font-size: 22px;
         line-height: 1.77;
@@ -152,7 +156,7 @@
     img#franceinfo-img1 {
         float: left;
         margin: 0;
-        width: 65%;
+        width: 50%;
         padding-top: 5%;
         padding-bottom: 5%;
     }
@@ -166,6 +170,9 @@
     }
     img#franceinfo-img-full {
         display: block;
+    }
+    #tile-project .left-column h2#grid-title {
+        padding-top: 48px;
     }
 }
 
