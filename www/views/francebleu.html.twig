@@ -1,75 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {% include 'head.html.twig' %}
-        <link rel="stylesheet" type="text/css" media="all" href="/assets/css/{{ project }}.css" />
-        <title>
-            {% block title %}
-                Sophie Hariri - Projet {{ project }}
-            {% endblock %}
-        </title>
-    </head>
+<head>
+    {% include 'head.html.twig' %}
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/css/{{ project }}.css" />
+    <title>
+        {% block title %}
+            Sophie Hariri - Projet {{ project }}
+        {% endblock %}
+    </title>
+</head>
 
-    <body>
-        {% include 'header.html.twig' %}
-        <main id="tile-project">
-            <img id="{{ project }}-img1" class="img-project" src="http://fakeimg.pl/425x319/">
+<body>
+{% include 'header.html.twig' %}
+<main id="tile-project">
+    <div class="first-element">
+        <div id="{{ project }}-div1">
+            <img id="{{ project }}-img1" class="img-project" src="/assets/img/franceinfo/franceinfo-mockup.png">
+        </div>
+        <div class="right-column">
             <h1>{{ project }}</h1>
             <div class="separator"></div>
             <div class="p-project">
                 Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
                 in advertising, my strength lies in website and app design.
             </div>
-            <h2>Titre 2</h2>
+        </div>
+    </div>
+    <div class="white-element">
+        <div class="left-column">
+            <h2>Logo</h2>
             <div class="p-project">
                 Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
                 in advertising, my strength lies in website and app design.
             </div>
-            <img id="{{ project }}-img2" class="img-project" src="http://fakeimg.pl/320x210/4d4343">
-            <img id="{{ project }}-img3" class="img-project typographie" src="http://fakeimg.pl/320x210/">
-            <h2>Titre 3</h2>
+        </div>
+        <img id="{{ project }}-img2" class="img-project"
+             src="/assets/img/francebleu/francebleu_img_logo_1x.jpg"
+             srcset="/assets/img/francebleu/francebleu_img_logo_2x.jpg">
+    </div>
+    <img id="{{ project }}-img-full" class="img-project"
+         src="/assets/img/francebleu/francebleu_img_typographie_1x.jpg"
+         srcset="/assets/img/francebleu/francebleu_img_typographie_2x.jpg 1024w">
+    <div class="white-element">
+        <div class="left-column">
+            <h2>Couleurs</h2>
             <div class="p-project">
                 Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
                 in advertising, my strength lies in website and app design.
             </div>
-            <img id="{{ project }}-img4" class="img-project couleurs" src="http://fakeimg.pl/320x210/4d4343">
-            <h2>Titre 4</h2>
+        </div>
+        <img id="{{ project }}-img3" class="img-project couleurs"
+             src="/assets/img/francebleu/francebleu_img_couleurs_1x.jpg"
+             srcset="/assets/img/francebleu/francebleu_img_couleurs_2x.jpg">
+    </div>
+    <div class="blue-element">
+        <div class="left-column">
+            <h2>Mobile First</h2>
             <div class="p-project">
                 Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
                 in advertising, my strength lies in website and app design.
             </div>
-            <img id="{{ project }}-img5" class="img-project" src="http://fakeimg.pl/320x210/">
-            <img id="{{ project }}-img6" class="img-project" src="http://fakeimg.pl/320x210/4d4343">
+        </div>
+        <img id="{{ project }}-img4" class="img-project couleurs"
+             src="/assets/img/francebleu/francebleu_img_mockup-mobilefirst_1x.jpg"
+             srcset="/assets/img/francebleu/francebleu_img_mockup-mobilefirst_2x.jpg">
+    </div>
+    <img id="{{ project }}-img5" class="img-project"
+         src="/assets/img/francebleu/francebleu_img_mobile-first_responsive1_1x.jpg"
+         srcset="/assets/img/francebleu/francebleu_img_mobile-first_responsive1_2x.jpg">
+    <img id="{{ project }}-img6" class="img-project"
+         src="/assets/img/francebleu/francebleu_img_mobile-first_responsive2_1x.jpg"
+         srcset="/assets/img/francebleu/francebleu_img_mobile-first_responsive2_2x.jpg">
+    <div class="white-element">
+        <div class="left-column">
+            <h2>Site Web</h2>
             <div class="p-project">
                 Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
                 in advertising, my strength lies in website and app design.
             </div>
-            <img id="{{ project }}-img7" class="img-project" src="http://fakeimg.pl/320x210/">
-            <img id="{{ project }}-img8" class="img-project" src="http://fakeimg.pl/320x210/4d4343">
-            <h2>Titre 5</h2>
-            <div class="p-project">
-                Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
-                in advertising, my strength lies in website and app design.
-            </div>
-            <img id="{{ project }}-img9" class="img-project" src="http://fakeimg.pl/320x210/">
-            <h2>Titre 6</h2>
-            <div class="p-project">
-                Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
-                in advertising, my strength lies in website and app design.
-            </div>
-            <img id="{{ project }}-img10" class="img-project" src="http://fakeimg.pl/320x210/4d4343">
-            <img id="{{ project }}-img11" class="img-project" src="http://fakeimg.pl/320x210/">
-            <img id="{{ project }}-img12" class="img-project" src="http://fakeimg.pl/320x210/4d4343">
-            <h2>Titre 7</h2>
-            <div class="p-project">
-                Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
-                in advertising, my strength lies in website and app design.
-            </div>
-            <img id="{{ project }}-img10" class="img-project" src="http://fakeimg.pl/320x210/4d4343">
-            <img id="{{ project }}-img11" class="img-project" src="http://fakeimg.pl/320x210/">
-            <img id="{{ project }}-img12" class="img-project" src="http://fakeimg.pl/320x210/4d4343">
-        </main>
+        </div>
+        <img id="{{ project }}-img7" class="img-project"
+             src="/assets/img/francebleu/francebleu_web_maquette_1x.jpg"
+             srcset="/assets/img/francebleu/francebleu_web_maquette_2x.jpg">
+    </div>
+    <img id="{{ project }}-img8" class="img-project"
+         src="/assets/img/francebleu/francebleu_web_maquette2_1x.jpg"
+         srcset="/assets/img/francebleu/francebleu_web_maquette2_2x.jpg">
+    <img id="{{ project }}-img9" class="img-project"
+         src="/assets/img/francebleu/francebleu_web_maquette3_1x.jpg"
+         srcset="/assets/img/francebleu/francebleu_web_maquette3_2x.jpg">
+</main>
 
-        {% include 'scripts.html.twig' %}
-    </body>
+{% include 'scripts.html.twig' %}
+</body>
 </html>
