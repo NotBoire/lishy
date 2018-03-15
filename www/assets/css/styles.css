@@ -152,8 +152,8 @@ html {
         width: 55px;
         height: 3px;
         background-color: #1263a4;
-        margin-top: 19px;
-        margin-bottom: 19px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
     .separator-white {
         width: 55px;
@@ -185,6 +185,7 @@ html {
 @media (min-width: 1000px) {
     .separator {
         width: 105px;
+        margin: 0;
     }
 }
 

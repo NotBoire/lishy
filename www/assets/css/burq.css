@@ -24,37 +24,24 @@
         font-size: 15px;
         line-height: 1.27;
         color: #8ea3b3;
-        margin-bottom: 32px;
-    }
-    img.img-project {
         margin-bottom: 40px;
     }
-    .blue-element, .blue-element h2, .blue-element div {
-        background: #1163a4;
-        color: #fff
+    .first-div {
+        padding-top: 16px;
     }
-    .blue-element {
+    .two-images {
+        background: #003c4e;
         margin: 0!important;
     }
-    .blue-element h2 {
-        padding-top: 40px;
-    }
-
-    div#francebleu-div1 {
-        margin: 0!important;
-        background-color: #0078d7;
-    }
-    img#francebleu-img1 {
-        background: #0078d7;
-    }
-    img#francebleu-img4 {
-        padding-bottom: 18px;
-    }
-    img#francebleu-img7, img#francebleu-img8 {
-        margin-bottom: 0;
-    }
-    img#francebleu-img-full {
-        display: none;
+    .img-logo {
+        padding-top: 8px;
+    }s
+     div#burq-div1 {
+         margin: 0!important;
+         background-color: #faf6f5;
+     }
+    img#burq-img1 {
+        background: #faf6f5;
     }
     .blue-element, .white-element, .first-element {
         margin: 0 !important;
@@ -66,8 +53,8 @@
         margin-left: 6%;
         margin-right: 6%;
     }
-    img#francebleu-img4, img#francebleu-img5, img#francebleu-img9 {
-        margin-bottom: 0;
+    .first-element .right-column {
+        background: #fff;
     }
 }
 
@@ -79,9 +66,11 @@
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-    .white-element, .blue-element {
-        float: left;
-        margin-right: 0 !important;
+    main {
+        text-align: center;
+    }
+    .first-element {
+        overflow: hidden;
     }
     .left-column {
         float: left;
@@ -93,21 +82,19 @@
         float: right;
         width: 23%;
     }
-    .left-column div.p-project {
-        padding-left: 0;
-        margin-top: 24px;
-    }
     #tile-project .right-column h1 {
         padding-top: 112px;
         padding-bottom: 50px;
         font-size: 70px;
         margin-top: 0;
-        line-height: 0.56;
+        line-height: 0.85;
     }
     .first-element .p-project {
+        display: inline-block;
         margin-top: 56px;
         font-size: 16px;
         line-height: 1.56;
+        text-align: initial;
     }
     .first-element .right-column {
         float: right;
@@ -127,34 +114,32 @@
     div.p-project {
         margin-bottom: 0;
     }
-    img#francebleu-img2, img#francebleu-img3, img#francebleu-img4, img#francebleu-img7 {
-        float: right;
-        margin: 0;
-        width: 65%;
+    main img {
+        width: 42%;
     }
-    img#francebleu-img1 {
+    main img.img-left {
+        margin: 0 48px 48px 0;
+        display: inline-block;
+    }
+    main img.img-right {
+        margin: 0 0 48px 0;
+        display: inline-block;
+    }
+    img#burq-img1 {
         float: left;
         margin: 0;
         width: 50%;
         padding-top: 5%;
         padding-bottom: 5%;
     }
-    img#francebleu-img5, img#francebleu-img8 {
-        float: left;
-        width: 50%;
-    }
-    img#francebleu-img6, img#francebleu-img9 {
-        float: right;
-        width: 50%;
-    }
-    img#francebleu-img6 {
-        margin-bottom: 0;
-    }
-    img#francebleu-img-full {
-        display: block;
-    }
     #tile-project .left-column h2#grid-title {
         padding-top: 48px;
+    }
+    .first-div {
+        padding-top: 112px;
+    }
+    .last-div {
+        padding-bottom: 64px;
     }
 }
 

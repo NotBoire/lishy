@@ -104,9 +104,10 @@
         margin-top: 24px;
     }
     #tile-project .right-column h1 {
-        padding-top: 110px;
-        padding-bottom: 66px;
+        padding-top: 112px;
+        padding-bottom: 50px;
         font-size: 70px;
+        margin-top: 0;
         line-height: 0.56;
     }
     .first-element .p-project {

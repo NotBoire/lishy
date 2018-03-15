@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'head.html.twig' %}
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/css/{{ project }}.css" />
+    <title>
+        {% block title %}
+            Sophie Hariri - Projet {{ project }}
+        {% endblock %}
+    </title>
+</head>
+
+<body>
+{% include 'header.html.twig' %}
+<main id="tile-project">
+    <div class="first-element">
+        <div id="{{ project }}-div1">
+            <img id="{{ project }}-img1" class="img-project" src="/assets/img/franceinfo/franceinfo-mockup.png">
+        </div>
+        <div class="right-column">
+            <h1>Appart {{ project }}</h1>
+            <div class="separator"></div>
+            <div class="p-project">
+                Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+                in advertising, my strength lies in website and app design.
+            </div>
+        </div>
+    </div>
+    <div class="first-div two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/burq/burq_planche1_plan-rdc_1x.jpg"
+             srcset="/assets/img/burq/burq_planche1_plan-rdc_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/burq/burq_planche2_plan-r-1_1x.jpg"
+             srcset="/assets/img/burq/burq_planche2_plan-r-1_2x.jpg">
+    </div>
+    <div class="two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/burq/burq_planche3_coupe-aa_1x.jpg"
+             srcset="/assets/img/burq/burq_planche3_coupe-aa_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/burq/burq_planche4_coupe-dd_1x.jpg"
+             srcset="/assets/img/burq/burq_planche4_coupe-dd_2x.jpg">
+    </div>
+    <div class="two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/burq/burq_planche5_coupe-ee_1x.jpg"
+             srcset="/assets/img/burq/burq_planche5_coupe-ee_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/burq/burq_planche6_facade_1x.jpg"
+             srcset="/assets/img/burq/burq_planche6_facade_2x.jpg">
+    </div>
+    <div class="last-div two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/burq/burq_planche7_3d-salon_1x.jpg"
+             srcset="/assets/img/burq/burq_planche7_3d-salon_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/burq/burq_planche8_3d-chambre_1x.jpg"
+             srcset="/assets/img/burq/burq_planche8_3d-chambre_2x.jpg">
+    </div>
+</main>
+
+{% include 'scripts.html.twig' %}
+</body>
+</html>

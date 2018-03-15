@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'head.html.twig' %}
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/css/{{ project }}.css" />
+    <title>
+        {% block title %}
+            Sophie Hariri - Projet {{ project }}
+        {% endblock %}
+    </title>
+</head>
+
+<body>
+{% include 'header.html.twig' %}
+<main id="tile-project">
+    <div class="first-element">
+        <div id="{{ project }}-div1">
+            <img id="{{ project }}-img1" class="img-project" src="/assets/img/franceinfo/franceinfo-mockup.png">
+        </div>
+        <div class="right-column">
+            <h1>{{ project }} Ciel</h1>
+            <div class="separator"></div>
+            <div class="p-project">
+                Sweden living in San Francisco, where I work as a Senior Designer at Ueno. With a background
+                in advertising, my strength lies in website and app design.
+            </div>
+        </div>
+    </div>
+    <div class="first-div two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/patisserie/pc_planche1_logo_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche1_logo_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/patisserie/pc_planche2_concept_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche2_concept_2x.jpg">
+    </div>
+    <div class="two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/patisserie/pc_planche3_recherches_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche3_recherches_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/patisserie/pc_planche4_plan_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche4_plan_2x.jpg">
+    </div>
+    <div class="two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/patisserie/pc_planche5_coupes_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche5_coupes_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/patisserie/pc_planche6_coupe_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche6_coupe_2x.jpg">
+    </div>
+    <div class="two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/patisserie/pc_planche7_plan-technique_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche7_plan-technique_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/patisserie/pc_planche8_luminaire_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche8_luminaire_2x.jpg">
+    </div>
+    <div class="last-div two-images">
+        <img class="img-logo img-left"
+             src="/assets/img/patisserie/pc_planche9_packaging_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche9_packaging_2x.jpg">
+        <img class="img-logo img-right"
+             src="/assets/img/patisserie/pc_planche10_menu_1x.jpg"
+             srcset="/assets/img/patisserie/pc_planche10_menu_2x.jpg">
+    </div>
+</main>
+
+{% include 'scripts.html.twig' %}
+</body>
+</html>
