@@ -1,29 +1,31 @@
-<div id="francebleu" class="tile-project">
+<div id="{{ slug }}" class="tile-project">
     <div class="img-block img-{{ slug }}">
-        <img class="img-project" src="../assets/img/{{ slug }}/{{ slug }}.png">
+        <img class="img-project" src="../assets/img/{{ slug }}/{{ slug }}-mockup.png">
     </div>
-    <h2>{{ title }}</h2>
-    <div class="separator"></div>
-    <div class="text-project">
-        {{ description }}
-    </div>
-    <div class="row data">
-        <div class="column role">
-            <p class="column-title">Role</p>
-            <p class="variable-data">{{ role }}</p>
+    <div class="txt-block">
+        <h2>{{ title }}</h2>
+        <div class="separator"></div>
+        <div class="text-project">
+            {{ description }}
         </div>
-        <div class="column agency">
-            <p class="column-title">Agence</p>
-            <p class="variable-data">{{ agency }}</p>
+        <div class="row data">
+            <div class="column role">
+                <p class="column-title">Role</p>
+                <p class="variable-data">{{ role }}</p>
+            </div>
+            <div class="column agency">
+                <p class="column-title">Agence</p>
+                <p class="variable-data">{{ agency }}</p>
+            </div>
+            <div class="column year">
+                <p class="column-title">Année</p>
+                <p class="variable-data">{{ year }}</p>
+            </div>
         </div>
-        <div class="column year">
-            <p class="column-title">Année</p>
-            <p class="variable-data">{{ year }}</p>
-        </div>
-    </div>
 
-    <a href="/projet/{{ slug }}" class="link-project">
-        Voir le projet
-    </a>
+        <a href="/projet/{{ slug }}" class="link-project">
+            Voir le projet
+        </a>
+    </div>
     <div class="empty"></div>
 </div>
