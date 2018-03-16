@@ -2,8 +2,14 @@
 @media (min-width: 320px) {
     /* TOP */
     #tile-blurb {
-        background-image:  linear-gradient(191deg, #23435F, rgba(18, 21, 28, 0.84), rgba(18, 19, 24, 0.83));
-        color: #fff;
+        background: -webkit-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
+        background: -o-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
+        background: -ms-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
+        background: linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;        color: #fff;
         height: 439px;
     }
     h1 {
@@ -146,6 +152,9 @@
         background-color: #fff;
         margin-bottom: 19px;
     }
+    .tile-logofolio {
+        display: none;
+    }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -162,7 +171,7 @@
         font-weight: 500;
         line-height: 1.36;
     }
-    #introduction {
+    #introduction {
         opacity: 0.85;
         max-width: 850px;
         font-size: 20px;
@@ -170,6 +179,15 @@
     }
     #tile-blurb {
         height: 100vh;
+        opacity: 0.81;
+        background: -webkit-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat center;
+        background: -o-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat center;
+        background: -ms-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat center;
+        background: linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     .tile-project {
         height: 100vh;
@@ -225,6 +243,33 @@
         margin-top: 60px;
         margin-bottom: 60px;
         width: 105px;
+    }
+    .tile-logofolio {
+        height: 100vh;
+        background: #1d3145;
+    }
+    .logofolio-title {
+        font-size: 110px;
+        font-weight: bold;
+        line-height: 0.35;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 40%;
+    }
+    a.logofolio-link {
+        margin: auto;
+        position: relative;
+        top: 50%;
+        height: auto;
+        padding: 16px;
+        border-radius: 4px;
+        border: solid 1px #f7f7f7;
+        background: #1d3145;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.31;
+        color: #fff;
     }
 }
 
