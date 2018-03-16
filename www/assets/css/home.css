@@ -2,10 +2,10 @@
 @media (min-width: 320px) {
     /* TOP */
     #tile-blurb {
-        background: -webkit-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
-        background: -o-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
-        background: -ms-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
-        background: linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_2x.jpg') no-repeat right;
+        background: -webkit-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_1x.jpg') no-repeat right;
+        background: -o-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_1x.jpg') no-repeat right;
+        background: -ms-linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_1x.jpg') no-repeat right;
+        background: linear-gradient(98deg, #072d47, rgba(4, 25, 42, 0)), url('../img/homepage_img_rio_1x.jpg') no-repeat right;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
