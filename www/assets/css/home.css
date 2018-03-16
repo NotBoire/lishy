@@ -188,6 +188,7 @@
         max-width: 530px;
         font-size: 20px;
         line-height: 1.75;
+        margin-bottom: 88px;
     }
     .row {
         display: inline-block;
@@ -215,12 +216,13 @@
         height: 100vh;
     }
     a.link-project {
-        margin: 120px 0 0 0;
+        margin: 88px 0 0 0;
         width: 200px;
     }
     .separator {
-        margin-top: 64px;
-        margin-bottom: 64px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 105px;
     }
 }
 
