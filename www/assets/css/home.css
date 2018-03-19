@@ -232,9 +232,9 @@
     }
     img.img-project {
         position: relative;
-        top: 10%;
-        width: 150%;
-        margin: 0;
+        top: 20%;
+        width: 100%;
+        margin: 0 0 0 50px;
     }
     .img-block {
         height: 100vh;
@@ -282,8 +282,4 @@
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {
-    img.img-project {;
-        width: 100%;
-    }
-}
+@media (min-width: 1200px) {}
