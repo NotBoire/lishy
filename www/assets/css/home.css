@@ -233,7 +233,7 @@
     img.img-project {
         position: relative;
         top: 10%;
-        width: 100%;
+        width: 150%;
         margin: 0;
     }
     .img-block {
@@ -282,4 +282,8 @@
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    img.img-project {;
+        width: 100%;
+    }
+}

@@ -20,7 +20,10 @@
 
 html {
     background-color: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
 
 /* Larger than mobile */
 @media (min-width: 320px) {
