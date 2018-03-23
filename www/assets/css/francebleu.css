@@ -152,6 +152,7 @@
     }
     img#francebleu-img-full {
         display: block;
+        margin-bottom: 0;
     }
     #tile-project .left-column h2#grid-title {
         padding-top: 48px;

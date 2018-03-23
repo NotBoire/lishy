@@ -154,6 +154,7 @@
     }
     img#emotion-img-full {
         display: block;
+        margin-bottom: 0;
     }
 }
 
