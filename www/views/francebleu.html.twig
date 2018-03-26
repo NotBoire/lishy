@@ -15,7 +15,7 @@
 <main id="tile-project">
     <div class="first-element">
         <div id="{{ project }}-div1">
-            <img id="{{ project }}-img1" class="img-project" src="/assets/img/franceinfo/franceinfo-mockup.png">
+            <img id="{{ project }}-img1" class="img-project" src="/assets/img/{{ project }}/page-projet_{{ project }}_2x.jpg">
         </div>
         <div class="right-column">
             <h1>{{ project }}</h1>
@@ -89,6 +89,25 @@
     <img id="{{ project }}-img9" class="img-project"
          src="/assets/img/francebleu/francebleu_web_maquette3_1x.jpg"
          srcset="/assets/img/francebleu/francebleu_web_maquette3_2x.jpg">
+    <div class="white-element">
+        <div class="left-column">
+            <h2>Cartes de France</h2>
+            <div class="p-project">
+                Pour les éléctions de 2017 il m’a été demandé de réaliser un widget. J’ai dû dessiner une carte de France
+                avec les 577 circonscriptions et les 348 sièges du sénat. Par la suite j’ai dessiné toutes les cartes de
+                France du site, la carte de France des départements, des régions et des locales.
+            </div>
+        </div>
+        <img id="{{ project }}-img10" class="img-project"
+             src="/assets/img/francebleu/francebleu_img_widgetelection_1x.jpg"
+             srcset="/assets/img/francebleu/francebleu_img_widgetelection_2x.jpg">
+    </div>
+    <img id="{{ project }}-img11" class="img-project"
+         src="/assets/img/francebleu/francebleu_img_cartedpt_1x.jpg"
+         srcset="/assets/img/francebleu/francebleu_img_cartedpt_2x.jpg">
+    <img id="{{ project }}-img12" class="img-project"
+         src="/assets/img/francebleu/francebleu_img_carteregion_1x.jpg"
+         srcset="/assets/img/francebleu/francebleu_img_carteregion_2x.jpg">
 </main>
 
 {% include 'scripts.html.twig' %}

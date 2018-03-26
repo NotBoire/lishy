@@ -63,19 +63,19 @@
         margin: 0
     }
     div.img-franceinfo {
-        background-color: #FFC52B;
+        background-color: #FFC300;
     }
     div.img-francebleu {
-        background-color: #0075D5;
+        background-color: #0178DE;
     }
     div.img-emotion {
         background-color: #262626;
     }
     div.img-patisserie {
-        background-color: #92092b;
+        background-color: #93092b;
     }
     div.img-burq {
-        background-color: #e9eef1;
+        background-color: #e9ecf1;
     }
     a.link-project {
         display:block;

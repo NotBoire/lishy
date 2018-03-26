@@ -42,10 +42,10 @@
 
     div#francebleu-div1 {
         margin: 0!important;
-        background-color: #0078d7;
+        background-color: #0178DE;
     }
     img#francebleu-img1 {
-        background: #0078d7;
+        background: #0178DE;
     }
     img#francebleu-img4 {
         padding-bottom: 18px;
@@ -66,7 +66,7 @@
         margin-left: 6%;
         margin-right: 6%;
     }
-    img#francebleu-img4, img#francebleu-img5, img#francebleu-img9 {
+    img#francebleu-img4, img#francebleu-img5, img#francebleu-img11, img#francebleu-img12 {
         margin-bottom: 0;
     }
 }
@@ -127,7 +127,7 @@
     div.p-project {
         margin-bottom: 0;
     }
-    img#francebleu-img2, img#francebleu-img3, img#francebleu-img4, img#francebleu-img7 {
+    img#francebleu-img2, img#francebleu-img3, img#francebleu-img4 {
         float: right;
         margin: 0;
         width: 65%;
@@ -139,11 +139,11 @@
         padding-top: 5%;
         padding-bottom: 5%;
     }
-    img#francebleu-img5, img#francebleu-img8 {
+    img#francebleu-img5, img#francebleu-img8, img#francebleu-img11 {
         float: left;
         width: 50%;
     }
-    img#francebleu-img6, img#francebleu-img9 {
+    img#francebleu-img6, img#francebleu-img9, img#francebleu-img12, img#francebleu-img7, img#francebleu-img10 {
         float: right;
         width: 50%;
     }
