@@ -1,13 +1,19 @@
 <div id="{{ slug }}" class="tile-project">
-    <div class="img-block img-{{ slug }}">
-        <img class="img-project" src="../assets/img/home/homepage_{{ slug }}_2x.jpg">
-    </div>
-    <div class="txt-block">
-        <h2>{{ title }}</h2>
-        <div class="separator"></div>
-        <div class="text-project">
-            {{ description }}
+    <a href="/projet/{{ slug }}">
+        <div class="img-block img-{{ slug }}">
+            <img class="img-project" src="../assets/img/home/homepage_{{ slug }}_2x.jpg">
         </div>
+    </a>
+    <div class="txt-block">
+        <a href="/projet/{{ slug }}">
+            <h2>{{ title }}</h2>
+        </a>
+        <div class="separator"></div>
+        <a href="/projet/{{ slug }}">
+            <div class="text-project">
+                {{ description }}
+            </div>
+        </a>
         <div class="row data">
             <div class="column role">
                 <p class="column-title">Role</p>
