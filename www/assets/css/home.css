@@ -92,6 +92,9 @@
         text-align: center;
         color: #1263a4;
     }
+    a.link-image {
+        margin: 0;
+    }
     .empty{
         height: 30px;
     }
