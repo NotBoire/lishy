@@ -242,8 +242,7 @@
         padding-top: 120px;
     }
     img.img-project {
-        position: relative;
-        top: 15%;
+        padding-top: 15%;
         width: 100%;
         margin: 0 0 0 50px;
     }
