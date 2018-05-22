@@ -12,7 +12,7 @@
     main#tile-project h1 {
         text-transform: capitalize;
         font-size: 30px;
-        color: #1163a4;
+        color: #0060ac;
         margin-bottom: -10px;
     }
     main#tile-project h2 {
@@ -30,7 +30,7 @@
         margin-bottom: 40px;
     }
     .blue-element, .blue-element h2, .blue-element div {
-        background: #1163a4;
+        background: #0060ac;
         color: #fff
     }
     .blue-element {
